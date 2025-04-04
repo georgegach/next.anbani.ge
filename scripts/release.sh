@@ -34,7 +34,7 @@ cp -r docs "$production_directory"
 
 echo '჻ Fixing CNAME'
 cd "$production_directory/docs" || exit 1
-echo 'anbani.ge' > CNAME
+echo 'next.anbani.ge' > CNAME
 
 echo '჻ Creating update git commit'
 cd "$production_directory" || exit 1
