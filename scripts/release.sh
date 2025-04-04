@@ -13,8 +13,8 @@
 #   ./deploy.sh /path/to/prod/ /path/to/dev/
 #
 # If no parameters are passed, the following defaults will be used:
-production_directory=${1:-'~/Space/GitHub/next.anbani.ge'}
-development_directory=${2:-'~/Space/GitHub/anbani-next'}
+production_directory=${1:-'/home/george/Space/GitHub/next.anbani.ge'}
+development_directory=${2:-'/home/george/Space/GitHub/anbani-next'}
 
 echo "Production directory: $production_directory"
 echo "Development directory: $development_directory"
